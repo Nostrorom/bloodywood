@@ -1,3 +1,8 @@
+@import '@fontsource/tillana';
+@import '@fontsource/east-sea-dokdo';
+@import '@fontsource/new-rocker';
+@import '@fontsource/lacquer';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

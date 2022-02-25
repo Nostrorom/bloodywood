@@ -1,33 +1,28 @@
 <script>
 	import { page } from '$app/stores';
 	import Icon from '$lib/Icon.svelte';
-	import series from '$lib/series.json';
+	import sections from '$lib/sections.json';
+	import logo from '/static/bloodywood_logo.png';
 </script>
 
-<header class="w-full h-full  flex flex-col items-center justify-between text-zinc-400 px-2">
-	<div class="">
-		<a href="/">
-			<h1 class="font-hand text-3xl text-amber-400 py-4 px-2 text-center">Jérôme FIDON</h1>
-		</a>
-	</div>
-
-	<nav class=" overflow-y-scroll w-full ">
-		<ul class="space-y-0 text-zinc-300">
-			{#each series as serie}
-				<li class="w-full ">
-					<a sveltekit:prefetch href={serie.path}>
-						<div class="relative group" class:text-amber-300={$page.url.pathname === serie.path}>
-							<img
-								src={serie.image}
-								alt={serie.title}
-								class="h-14 w-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100"
-								class:grayscale-0={$page.url.pathname === serie.path}
-							/>
+<header class="w-full h-full flex flex-col text-gray-700">
+	<nav class="w-full h-4/5 my-auto">
+		<ul class="h-full w-full flex flex-col justify-around">
+			{#each sections as section}
+				<li class="w-full font-bloody text-lg lg:text-3xl">
+					<a sveltekit:prefetch href={section.path}>
+						<div
+							class="h-32 group flex items-center hover:text-amber-400"
+							class:text-red-600={$page.url.pathname === section.path}
+						>
+							<h5 class="w-4/5 leading-tight py-1 px-3 h-full flex items-center justifiy-center 0">
+								{section.title}
+							</h5>
 							<div
-								class="absolute top-0 w-full bg-zinc-900 bg-opacity-70 group-hover:bg-opacity-30 leading-tight py-1 px-3 h-full flex items-center justifiy-center hover:text-white"
-								class:bg-zinc-700={$page.url.pathname === serie.path}
+								class="w-1/5 h-6 opacity-0 lg:opacity-100 justify-center group-hover:flex"
+								class:hidden={$page.url.pathname !== section.path}
 							>
-								{serie.title}
+								<Icon icon="meteor" />
 							</div>
 						</div>
 					</a>

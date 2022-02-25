@@ -1,14 +1,16 @@
-const colors = require('tailwindcss/colors');
-
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
 		extend: {},
 		fontFamily: {
-			hand: 'Zeyada'
+			bloody: 'Lacquer',
+			rock: 'New Rocker',
+			title: 'East Sea Dokdo',
+			hindi: 'Tillana'
 		}
 	},
+
 	plugins: []
 };
 
