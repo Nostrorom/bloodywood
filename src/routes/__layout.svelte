@@ -15,7 +15,24 @@
 	cycleBG();
 </script>
 
-<svelte:head />
+<svelte:head>
+	<meta charset="UTF-8" />
+	<meta
+		name="description"
+		content="Mixing influences, Bloodywood brings Indian vibes to high-energy metal. A sound like no other ! - Unofficial (for now?) fan site"
+	/>
+	<meta name="keywords" content="metal hindi" />
+	<meta name="author" content="Nos Dev" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EPVCPJEX1H"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-EPVCPJEX1H');
+	</script></svelte:head
+>
 <main class="w-screen h-screen flex bg-black text-gray-400">
 	<img src={logo} alt="logo Bloodywood" class="h-full w-full absolute opacity-10 object-cover" />
 	{#if showBG}

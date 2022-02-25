@@ -1,0 +1,31 @@
+<script>
+	import Icon from '$lib/Icon.svelte';
+</script>
+
+<div class="h-full w-full pr-48 flex flex-col space-y-8 items-center justify-center">
+	<h6 class="text-3xl font-bloody text-gray-600">Section under construction</h6>
+	<a href="https://www.facebook.com/bloodywood.delhi/" target="_blank">
+		<div class="flex">
+			<div
+				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-amber-400"
+			>
+				<div class="h-6">
+					<Icon icon="out" />
+				</div>
+				<p>Link to Facebook page</p>
+			</div>
+		</div>
+	</a>
+	<a href="https://en.wikipedia.org/wiki/Bloodywood" target="_blank">
+		<div class="flex">
+			<div
+				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-amber-400"
+			>
+				<div class="h-6">
+					<Icon icon="out" />
+				</div>
+				<p>Link to Wikipedia</p>
+			</div>
+		</div>
+	</a>
+</div>
