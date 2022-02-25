@@ -15,7 +15,7 @@
 	<img src={rakshak} alt="Rakshak album cover" class="pb-8 lg:pb-0 lg:w-96" />
 	<div class="lg:px-10 space-y-4">
 		<h6 class="text-4xl font-bloody text-amber-400">
-			RAkShaK <em class="font-hindi opacity-70">रक्षक</em>
+			RAkShaK <em class="font-hindi opacity-60">रक्षक</em>
 		</h6>
 		<h6 class="text-3xl font-bloody text-gray-300">Our debut album is available for preorder !</h6>
 		<p class="text-xl leading-relaxed">

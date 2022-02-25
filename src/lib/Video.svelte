@@ -18,7 +18,7 @@
 			<h6 class="text-4xl font-bloody text-red-700">
 				{video.title}
 			</h6>
-			<h6 class="text-4xl font-hindi text-red-600 opacity-50">
+			<h6 class="text-4xl font-hindi text-red-700 opacity-60">
 				{video.hindi}
 			</h6>
 		</div>
