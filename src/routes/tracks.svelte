@@ -3,7 +3,7 @@
 	import videos from '$lib/videos.json';
 </script>
 
-<div>
+<div class="px-24">
 	{#each videos as video}
 		<Video {video} />
 	{/each}

@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Karan Katiyar",
+		"hindi": "करण कटियारी",
+		"instrument": "guitars, flute, production, composition",
+		"icon": "micro"
+	},
+	{
+		"name": "Jayant Bhadula",
+		"hindi": "जयंत भादुला",
+		"instrument": "vocals, growls",
+		"icon": "micro"
+	},
+	{
+		"name": "Raoul Kerr",
+		"hindi": "राउल केरी",
+		"instrument": "vocals, growls",
+		"icon": "micro"
+	},
+	{
+		"name": "Sarthak Pahwa",
+		"hindi": "सार्थक पहवा",
+		"instrument": "dhol",
+		"icon": "micro"
+	},
+	{
+		"name": "Roshan Roy",
+		"hindi": "रोशन रॉय",
+		"instrument": "bass",
+		"icon": "micro"
+	},
+	{
+		"name": "Vishesh Singh",
+		"hindi": "विशेष सिंह",
+		"instrument": "drums",
+		"icon": "micro"
+	}
+	
+]

@@ -49,7 +49,9 @@
 		</div>
 	</div>
 
-	<div class="h-full w-full overflow-y-auto pl-16 lg:pl-48 absolute top-0 bg-black bg-opacity-30">
+	<div
+		class="h-full w-full overflow-y-auto px-16 lg:px-48 lg:py-8 absolute top-0 bg-black bg-opacity-30"
+	>
 		<slot />
 	</div>
 </main>

@@ -22,8 +22,8 @@
 				{video.hindi}
 			</h6>
 		</div>
-		<p class="lg:text-xl text-gray-600 ">{video.date}</p>
-		<p class="lg:text-xl leading-relaxed">
+		<p class="lg:text-base text-gray-600 ">{video.date}</p>
+		<p class="lg:text-base leading-relaxed">
 			{video.description}
 		</p>
 	</div>
