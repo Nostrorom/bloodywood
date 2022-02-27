@@ -6,22 +6,21 @@
 	import Icon from '$lib/Icon.svelte';
 	import Review from '$lib/Review.svelte';
 	import rakshak from '/static/rakshak_cover.jpg';
+	import { fade, slide } from 'svelte/transition';
 </script>
 
 <svelte:head>
 	<title>Bloodywood</title>
 </svelte:head>
-<div class="px-24">
+<div class="">
 	<a href="https://linktr.ee/BloodywoodOfficial" target="_blank">
-		<section
-			class="group py-16 px-8 lg:px-24 flex flex-col lg:flex-row justify-center items-center"
-		>
+		<section class="group py-16 flex flex-col lg:flex-row justify-center items-center">
 			<img src={rakshak} alt="Rakshak album cover" class="pb-8 lg:pb-0 lg:w-96" />
-			<div class="lg:px-10 space-y-4">
-				<h6 class="text-4xl font-bloody text-amber-400">
-					RAkShaK <em class="font-hindi opacity-60">रक्षक</em>
+			<div transition:fade class="lg:px-10 space-y-4">
+				<h6 class="text-4xl font-display text-amber-400">
+					Rakshak <em class="font-hindi opacity-60">रक्षक</em>
 				</h6>
-				<h6 class="text-3xl font-bloody text-gray-300">
+				<h6 class="text-3xl font-display text-gray-300">
 					Our debut album is available for pre order !
 				</h6>
 				<p class="text-base leading-relaxed">
@@ -34,7 +33,7 @@
 					personal level, help you get through your day, and strengthen you for what lies beyond.
 				</p>
 
-				<p class="text-xl text-gray-500 leading-relaxed">Rakshak क्षक means guardian in Hindi</p>
+				<p class="text-base text-gray-500 leading-relaxed">Rakshak क्षक means guardian in Hindi</p>
 				<div class="flex">
 					<div
 						class="text-xl flex items-center space-x-3 text-red-600 rounded-full group-hover:text-amber-400"
@@ -42,18 +41,18 @@
 						<div class="h-8">
 							<Icon icon="out" />
 						</div>
-						<p class="font-bloody text-3xl">Get iT hEre</p>
+						<p transition:slide class="font-display text-3xl">Get it here</p>
 					</div>
 				</div>
 			</div>
 		</section>
 	</a>
-	<div class="px-8 lg:px-24">
+	<div class="">
 		<Review
 			review={{
 				author: 'Kerrang!',
 				date: 'Feb. 2022',
-				href: 'https://www.kerrang.com/album-review-bloodywood-rakshak-india-metal',
+				href: 'https://www.kerrang.com/album-review-displaywood-rakshak-india-metal',
 				stars: 4,
 				of: 5,
 				excerpt:
@@ -62,9 +61,9 @@
 		/>
 		<Review
 			review={{
-				author: 'distorted Sound Magazine',
+				author: 'Distorted Sound Magazine',
 				date: 'Feb. 2022',
-				href: 'https://distortedsoundmag.com/album-review-rakshak-bloodywood/',
+				href: 'https://distortedsoundmag.com/album-review-rakshak-displaywood/',
 				stars: 9,
 				of: 10,
 				excerpt:

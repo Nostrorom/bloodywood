@@ -1,11 +1,12 @@
 <script>
 	export let video;
 	let src = `https://www.youtube.com/embed/${video.id}`;
+	import { fade } from 'svelte/transition';
 </script>
 
-<div class="flex flex-col lg:flex-row p-6 lg:p-10">
+<div class="flex flex-col lg:flex-row py-6 lg:py-10">
 	<iframe
-		class="rounded-lg w-full h-72 px-4 lg:px-0 lg:w-2/5 shadow-xl"
+		class="rounded-lg w-full h-72 lg:w-2/5 shadow-xl bg-black"
 		{src}
 		title="YouTube video player"
 		frameborder="0"
@@ -13,12 +14,12 @@
 		allowfullscreen
 	/>
 
-	<div class="w-full lg:w-3/5 px-3 py-2 lg:py-0 lg:px-10 space-y-2">
+	<div transition:fade class="w-full lg:w-3/5 px-3 py-2 lg:py-0 lg:px-10 space-y-2">
 		<div class="flex space-x-4">
-			<h6 class="text-4xl font-bloody text-red-700">
+			<h6 class="text-4xl font-display text-red-700">
 				{video.title}
 			</h6>
-			<h6 class="text-4xl font-hindi text-red-700 opacity-60">
+			<h6 class="text-4xl font-hindi text-red-700 opacity-75">
 				{video.hindi}
 			</h6>
 		</div>

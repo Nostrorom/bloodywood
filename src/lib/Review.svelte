@@ -6,7 +6,7 @@
 <a href={review.href} target="_blank">
 	<div class="space-y-1 group py-2">
 		<div class="flex space-x-3 items-center">
-			<h6 class="text-3xl font-bloody text-red-700">
+			<h6 class="text-3xl font-display text-red-700">
 				{review.author}
 			</h6>
 			<div class="flex items-center space-x-2">

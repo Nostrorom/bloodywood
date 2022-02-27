@@ -9,7 +9,7 @@
 	<nav class="w-full h-4/5 my-auto">
 		<ul class="h-full w-full flex flex-col justify-around">
 			{#each sections as section}
-				<li class="w-full font-bloody text-lg lg:text-3xl">
+				<li class="w-full font-display text-2xl lg:text-3xl">
 					<a sveltekit:prefetch href={section.path}>
 						<div
 							class="h-32 group flex items-center hover:text-amber-400"

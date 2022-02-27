@@ -9,7 +9,7 @@
 	const cycleBG = () => {
 		showBG = !showBG;
 
-		setTimeout(() => cycleBG(), 5000);
+		setTimeout(() => cycleBG(), 6000);
 	};
 
 	cycleBG();
@@ -37,10 +37,10 @@
 	<img src={logo} alt="logo Bloodywood" class="h-full w-full absolute opacity-10 object-cover" />
 	{#if showBG}
 		<img
-			transition:fade={{ duration: 2500 }}
+			transition:fade={{ duration: 3000 }}
 			src={logo}
 			alt="logo Bloodywood"
-			class="h-full w-full object-cover opacity-25"
+			class="h-full w-full object-cover opacity-40"
 		/>
 	{/if}
 	<div class="h-full fixed left-0 w-16 lg:w-48 z-10">
@@ -50,8 +50,10 @@
 	</div>
 
 	<div
-		class="h-full w-full overflow-y-auto px-16 lg:px-48 lg:py-8 absolute top-0 bg-black bg-opacity-30"
+		class="h-full w-full overflow-y-auto lg:py-8 absolute top-0 bg-black bg-opacity-20 px-24 lg:px-80"
 	>
+		<!-- <div class="w-4/5 mx-auto bg-red-800"> -->
 		<slot />
+		<!-- </div> -->
 	</div>
 </main>

@@ -4,7 +4,7 @@ const config = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			bloody: 'Lacquer',
+			display: 'Jolly Lodger',
 			rock: 'New Rocker',
 			title: 'East Sea Dokdo',
 			hindi: 'Tillana'

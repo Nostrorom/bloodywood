@@ -3,7 +3,7 @@
 		"name": "Karan Katiyar",
 		"hindi": "करण कटियारी",
 		"instrument": "guitars, flute, production, composition",
-		"icon": "micro"
+		"icon": "guitar"
 	},
 	{
 		"name": "Jayant Bhadula",
@@ -21,19 +21,18 @@
 		"name": "Sarthak Pahwa",
 		"hindi": "सार्थक पहवा",
 		"instrument": "dhol",
-		"icon": "micro"
+		"icon": "dhol"
 	},
 	{
 		"name": "Roshan Roy",
 		"hindi": "रोशन रॉय",
 		"instrument": "bass",
-		"icon": "micro"
+		"icon": "bass"
 	},
 	{
 		"name": "Vishesh Singh",
 		"hindi": "विशेष सिंह",
 		"instrument": "drums",
-		"icon": "micro"
+		"icon": "drum"
 	}
-	
 ]
