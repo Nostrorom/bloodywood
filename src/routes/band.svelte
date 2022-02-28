@@ -1,6 +1,9 @@
 <script>
 	import Icon from '$lib/Icon.svelte';
 	import Video from '$lib/Video.svelte';
+	import Member from '$lib/Member.svelte';
+
+	import members from '$lib/members.json';
 	let video = {
 		id: 'HIvzfULOJ70',
 		title: 'Raj Against The Machine',
@@ -14,29 +17,9 @@
 <div class="h-full w-full flex flex-col space-y-8">
 	<Video {video} />
 
-	<h6 class="text-3xl font-display text-gray-600">Section under construction</h6>
-	<a href="https://www.facebook.com/displaywood.delhi/" target="_blank">
-		<div class="flex">
-			<div
-				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-amber-400"
-			>
-				<div class="h-6">
-					<Icon icon="out" />
-				</div>
-				<p>Link to Facebook page</p>
-			</div>
-		</div>
-	</a>
-	<a href="https://en.wikipedia.org/wiki/displaywood" target="_blank">
-		<div class="flex">
-			<div
-				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-amber-400"
-			>
-				<div class="h-6">
-					<Icon icon="out" />
-				</div>
-				<p>Link to Wikipedia</p>
-			</div>
-		</div>
-	</a>
+	<div class="grid grid-cols-2">
+		{#each members as member}
+			<Member {member} />
+		{/each}
+	</div>
 </div>
