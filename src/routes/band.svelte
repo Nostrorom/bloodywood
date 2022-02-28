@@ -17,7 +17,7 @@
 <div class="h-full w-full flex flex-col space-y-8">
 	<Video {video} />
 
-	<div class="grid grid-cols-2">
+	<div class="grid grid-cols-2 pb-24">
 		{#each members as member}
 			<Member {member} />
 		{/each}
