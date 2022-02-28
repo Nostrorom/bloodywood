@@ -2,42 +2,42 @@
 	{
 		"name": "Karan Katiyar",
 		"hindi": "करण कटियारी",
-		"image": "/static/band_pictures_Karan.png",
+		"image": "/band_pictures_Karan.png",
 		"instrument": "guitars, flute, production, composition",
 		"icon": "guitar"
 	},
 	{
 		"name": "Jayant Bhadula",
 		"hindi": "जयंत भादुला",
-		"image": "/static/band_pictures_Jayant.png",
+		"image": "/band_pictures_Jayant.png",
 		"instrument": "vocals, growls",
 		"icon": "micro"
 	},
 	{
 		"name": "Raoul Kerr",
 		"hindi": "राउल केरी",
-		"image": "/static/band_pictures_Raoul.png",
+		"image": "/band_pictures_Raoul.png",
 		"instrument": "vocals, growls",
 		"icon": "micro"
 	},
 	{
 		"name": "Sarthak Pahwa",
 		"hindi": "सार्थक पहवा",
-		"image": "/static/band_pictures_Sarthak.png",
+		"image": "/band_pictures_Sarthak.png",
 		"instrument": "dhol",
 		"icon": "dhol"
 	},
 	{
 		"name": "Roshan Roy",
 		"hindi": "रोशन रॉय",
-		"image": "/static/band_pictures_Roshan.png",
+		"image": "/band_pictures_Roshan.png",
 		"instrument": "bass",
 		"icon": "bass"
 	},
 	{
 		"name": "Vishesh Singh",
 		"hindi": "विशेष सिंह",
-		"image": "/static/band_pictures_Vishesh.png",
+		"image": "/band_pictures_Vishesh.png",
 		"instrument": "drums",
 		"icon": "drum"
 	}
