@@ -16,7 +16,9 @@
 				{member.hindi}
 			</h6>
 		</div>
-		<p class="lg:text-base text-gray-600 ">{member.date}</p>
+		<div>
+			<Icon icon={member.icon} />
+		</div>
 		<p class="lg:text-base leading-relaxed">
 			{member.instrument}
 		</p>
