@@ -1,5 +1,3 @@
 # Description
 
-Jérôme Fidon, painter
-
-[Jérôme's artwork](https://fidon.herokuapp.com)
+Unofficial website for indian folk metal band [Bloodywood](https://bloodywood.in)
