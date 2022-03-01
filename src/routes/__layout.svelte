@@ -50,7 +50,7 @@
 	</div>
 
 	<div
-		class="h-full w-full overflow-y-auto lg:py-8 absolute top-0 bg-black bg-opacity-20 px-24 lg:px-80"
+		class="h-full w-full overflow-y-auto lg:py-8 absolute top-0 bg-black bg-opacity-25 px-24 lg:px-80"
 	>
 		<!-- <div class="w-4/5 mx-auto bg-red-800"> -->
 		<slot />

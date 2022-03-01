@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Rakshak Limited Edition CD",
+		"image": "/rakshak_limited_CD.webp",
+		"US_price": "20",
+		"US_link": "https://bloodywoodstore.us/products/rakshak-limited-cd",
+		"WW_link": "https://bloodywoodstore.com/products/bloodywood-rakshak-limited-cd-pre-order",
+		"description": "<div><ol><li>Gaddaar</li><li>Aaj</li><li>Zanjeero Se</li><li>Machi Bhasad (Album Version)</li><li>Dana-Dan</li><li>Jee Veerey (Album Version)</li><li>Endurant (Album Version)</li><li>Yaad (Album Version)</li><li>BSDK.exe</li><li>Chakh Le</li></ol></div>"
+	},
+	{
+		"title": "Rakshak CD",
+		"image": "/rakshak_cover.jpg",
+		"US_price": "15",
+		"US_link": "https://bloodywoodstore.us/products/rakshak-cd",
+		"WW_link": "https://bloodywoodstore.com/products/bloodywood-rakshak-cd-pre-order",
+		"description": "<div><ol><li>Gaddaar</li><li>Aaj</li><li>Zanjeero Se</li><li>Machi Bhasad (Album Version)</li><li>Dana-Dan</li><li>Jee Veerey (Album Version)</li><li>Endurant (Album Version)</li><li>Yaad (Album Version)</li><li>BSDK.exe</li><li>Chakh Le</li></ol></div>"
+	},
+	{
+		"title": "Rakshak Vinyl",
+		"image": "/rakshak_vinyl.jpg",
+		"US_price": "35",
+		"US_link": "https://bloodywoodstore.us/products/rakshak-picture-disc",
+		"WW_link": "https://bloodywoodstore.com/products/bloodywood-rakshak-picture-disc-vinyl-pre-order",
+		"description": "<div><ol><li>Gaddaar</li><li>Aaj</li><li>Zanjeero Se</li><li>Machi Bhasad (Album Version)</li><li>Dana-Dan</li><li>Jee Veerey (Album Version)</li><li>Endurant (Album Version)</li><li>Yaad (Album Version)</li><li>BSDK.exe</li><li>Chakh Le</li></ol></div>"
+	}
+]
