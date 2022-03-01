@@ -14,6 +14,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Band - Bloodywood</title>
+</svelte:head>
+
 <div class="h-full w-full flex flex-col space-y-8">
 	<Video {video} />
 
