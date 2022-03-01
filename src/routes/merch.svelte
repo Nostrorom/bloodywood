@@ -7,7 +7,7 @@
 	<a href="https://bloodywoodstore.com/" target="_blank">
 		<div class="flex">
 			<div
-				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-yellow-400"
+				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-yellow-500"
 			>
 				<div class="h-6">
 					<Icon icon="out" />
@@ -19,7 +19,7 @@
 	<a href="https://bloodywoodstore.us/" target="_blank">
 		<div class="flex">
 			<div
-				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-yellow-400"
+				class="text-2xl flex items-center space-x-3 text-red-600 rounded-full hover:text-yellow-500"
 			>
 				<div class="h-6">
 					<Icon icon="out" />

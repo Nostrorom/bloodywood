@@ -11,7 +11,7 @@
 			</h6>
 			<div class="flex items-center space-x-2">
 				{#each Array(review.stars) as _}
-					<div class="h-4 text-yellow-400">
+					<div class="h-4 text-yellow-500">
 						<Icon icon="star" />
 					</div>
 				{/each}
@@ -28,7 +28,7 @@
 		</p>
 		<div class="flex">
 			<div
-				class="text-base flex items-center space-x-4 text-gray-500 rounded-full group-hover:text-yellow-400"
+				class="text-base flex items-center space-x-4 text-gray-500 rounded-full group-hover:text-yellow-500"
 			>
 				<div class="h-5">
 					<Icon icon="out" />
