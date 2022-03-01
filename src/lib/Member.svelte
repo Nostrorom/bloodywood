@@ -12,7 +12,7 @@
 			<h6 class="text-4xl font-display text-red-700">
 				{member.name}
 			</h6>
-			<h6 class="text-4xl font-hindi text-amber-400 opacity-75">
+			<h6 class="text-4xl font-hindi text-yellow-500 opacity-75">
 				{member.hindi}
 			</h6>
 		</div>

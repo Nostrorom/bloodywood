@@ -12,7 +12,7 @@
 				<li class="w-full font-display text-2xl lg:text-3xl">
 					<a sveltekit:prefetch href={section.path}>
 						<div
-							class="h-32 group flex items-center hover:text-amber-400"
+							class="h-32 group flex items-center hover:text-yellow-500"
 							class:text-red-600={$page.url.pathname === section.path}
 						>
 							<h5 class="w-4/5 leading-tight py-1 px-3 h-full flex items-center justifiy-center 0">
@@ -30,10 +30,4 @@
 			{/each}
 		</ul>
 	</nav>
-
-	<div class="h-12 w-6 py-4 text-zinc-400 hover:text-amber-400">
-		<a href="https://www.instagram.com/j.fidon/" target="_blank">
-			<Icon icon="instagram" />
-		</a>
-	</div>
 </header>

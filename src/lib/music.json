@@ -1,0 +1,54 @@
+{
+	"download": [
+		{
+			"name": "Bandcamp",
+			"icon": "bandcamp",
+			"link": "https://bloodywood.bandcamp.com/"
+		},
+		{
+			"name": "iTunes",
+			"icon": "itunes",
+			"link": "https://music.apple.com/in/album/_/1588310088?mt=1&app=itunes&ls=1&at=1000lHKX"
+		},
+		{
+			"name": "Amazon",
+			"icon": "amazon",
+			"link": "https://www.amazon.com/dp/B09HLBQH4D"
+		},
+		{
+			"name": "Qobuz",
+			"icon": "qobuz",
+			"link": "https://www.qobuz.com/store-router/album/rakshak-bloodywood/a9a8553tfwvzb"
+		}
+	],
+	"stream": [
+		{
+			"name": "Spotify",
+			"icon": "spotify",
+			"link": "https://open.spotify.com/album/7M7SJQjvKf5SvtC28c9xSt"
+		},
+		{
+			"name": "Apple music",
+			"icon": "apple",
+			"link": "https://music.apple.com/us/album/rakshak/1588310088?ls=1"
+		},
+
+		{
+			"name": "Qobuz",
+			"icon": "qobuz",
+			"link": "https://open.qobuz.com/album/a9a8553tfwvzb"
+		}
+	],
+	"physical": [
+		{
+			"name": "US Store",
+			"icon": "vinyl",
+			"link": "https://bloodywoodstore.us/"
+		},
+		{
+			"name": "Global Store",
+			"icon": "vinyl",
+			"link": "https://bloodywoodstore.com/"
+		}
+	]
+}
