@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	export let video;
 	let src = `https://www.youtube.com/embed/${video.id}`;
 	import { fade } from 'svelte/transition';
@@ -28,4 +28,4 @@
 			{video.description}
 		</p>
 	</div>
-</div>
+</div> -->
