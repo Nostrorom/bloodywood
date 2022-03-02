@@ -10,7 +10,7 @@
 	</div>
 
 	<div transition:fade class="w-2/3 lg:w-3/5 px-3 py-2 lg:py-0 lg:px-10 space-y-2">
-		<h6 class="text-3xl font-display text-red-700">
+		<h6 class="text-3xl font-display font-bold text-red-700">
 			{merch.title}
 		</h6>
 		<h6 class="text-lg text-yellow-500 opacity-75">

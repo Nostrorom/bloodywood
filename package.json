@@ -31,8 +31,11 @@
 		"@fontsource/cabin-sketch": "^4.5.2",
 		"@fontsource/east-sea-dokdo": "^4.5.3",
 		"@fontsource/jolly-lodger": "^4.5.2",
+		"@fontsource/kalam": "^4.5.2",
 		"@fontsource/lacquer": "^4.5.2",
 		"@fontsource/new-rocker": "^4.5.2",
+		"@fontsource/ranga": "^4.5.1",
+		"@fontsource/skranji": "^4.5.3",
 		"@fontsource/tillana": "^4.5.3"
 	}
 }

@@ -7,7 +7,7 @@ const config = {
 			display: 'Cabin Sketch',
 			rock: 'New Rocker',
 			title: 'East Sea Dokdo',
-			hindi: 'Tillana'
+			hindi: 'Kalam'
 		}
 	},
 

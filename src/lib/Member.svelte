@@ -9,10 +9,10 @@
 
 	<div transition:slide class="px-3 py-2 space-y-1">
 		<div class="flex space-x-4">
-			<h6 class="text-3xl font-display text-red-700">
+			<h6 class="text-2xl font-display font-bold text-red-700">
 				{member.name}
 			</h6>
-			<h6 class="text-2xl font-hindi text-yellow-500 opacity-75">
+			<h6 class="text-2xl font-hindi text-yellow-500 opacity-60">
 				{member.hindi}
 			</h6>
 		</div>
