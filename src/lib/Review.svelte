@@ -5,24 +5,22 @@
 
 <a href={review.href} target="_blank">
 	<div class="space-y-1 group py-2">
-		<div class="flex space-x-3 items-center">
-			<h6 class="text-3xl font-display text-red-700">
+			<h6 class="text-3xl font-display font-bold text-red-700">
 				{review.author}
 			</h6>
-			<div class="flex items-center space-x-2">
-				{#each Array(review.stars) as _}
-					<div class="h-4 text-yellow-500">
-						<Icon icon="star" />
-					</div>
-				{/each}
-				{#each Array(review.of - review.stars) as _}
-					<div class="h-4 text-gray-600">
-						<Icon icon="star" />
-					</div>
-				{/each}
-			</div>
+		<div class="flex items-center space-x-1">
+			<p class="lg:text-base text-gray-600 pr-2 ">{review.date}</p>
+			{#each Array(review.stars) as _}
+				<div class="h-3 text-yellow-500">
+					<Icon icon="star" />
+				</div>
+			{/each}
+			{#each Array(review.of - review.stars) as _}
+				<div class="h-3 text-gray-600">
+					<Icon icon="star" />
+				</div>
+			{/each}
 		</div>
-		<p class="lg:text-base text-gray-600 ">{review.date}</p>
 		<p class="lg:text-base leading-relaxed">
 			{review.excerpt}
 		</p>

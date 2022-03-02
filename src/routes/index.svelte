@@ -17,10 +17,10 @@
 	<div class="group pt-16 flex flex-col lg:flex-row justify-center items-center">
 		<img src={rakshak} alt="Rakshak album cover" class="pb-8 lg:pb-0 lg:w-96" />
 		<div transition:fade class="lg:px-10 space-y-4">
-			<h6 class="text-4xl font-display text-yellow-500">
-				Rakshak <em class="font-hindi opacity-60">रक्षक</em>
+			<h6 class="text-4xl font-display font-bold text-yellow-500">
+				Rakshak <em class="font-hindi opacity-70 text-red-600">रक्षक</em>
 			</h6>
-			<h6 class="text-3xl font-display text-gray-300">Our debut album is out now !</h6>
+			<h6 class="text-3xl font-display font-bold text-gray-300">Our debut album is out now !</h6>
 			<p class="text-base leading-relaxed">
 				This body of work embodies who we are and what we believe in. While we did have interest
 				from multiple labels, we decided to stay independent and portray our music in its truest,
@@ -46,7 +46,7 @@
 	</div>
 	<div class="flex space-x-16">
 		<div>
-			<h6 class="font-display text-yellow-500 text-3xl pb-2">Download</h6>
+			<h6 class="font-display font-bold text-yellow-500 text-3xl pb-2">Download</h6>
 			<div class="flex space-x-4">
 				{#each music.download as item}
 					<a href={item.link} targe="_blank">
@@ -62,7 +62,7 @@
 			</div>
 		</div>
 		<div>
-			<h6 class="font-display text-yellow-500 text-3xl pb-2">Stream</h6>
+			<h6 class="font-display font-bold text-yellow-500 text-3xl pb-2">Stream</h6>
 			<div class="flex space-x-4">
 				{#each music.stream as item}
 					<a href={item.link} targe="_blank">
@@ -78,7 +78,7 @@
 			</div>
 		</div>
 		<div>
-			<h6 class="font-display text-yellow-500 text-3xl pb-2">CD / Vinyl</h6>
+			<h6 class="font-display font-bold text-yellow-500 text-3xl pb-2">CD / Vinyl</h6>
 			<div class="flex space-x-4">
 				{#each music.physical as item}
 					<a href={item.link} targe="_blank">
