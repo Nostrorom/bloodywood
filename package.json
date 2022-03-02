@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/cabin-sketch": "^4.5.2",
 		"@fontsource/east-sea-dokdo": "^4.5.3",
 		"@fontsource/jolly-lodger": "^4.5.2",
 		"@fontsource/lacquer": "^4.5.2",

@@ -3,6 +3,7 @@
 @import '@fontsource/new-rocker';
 @import '@fontsource/lacquer';
 @import '@fontsource/jolly-lodger';
+@import '@fontsource/cabin-sketch';
 
 @tailwind base;
 @tailwind components;

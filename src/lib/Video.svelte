@@ -16,7 +16,7 @@
 
 	<div transition:fade class="w-full lg:w-3/5 px-3 py-2 lg:py-0 lg:px-10 space-y-2">
 		<div class="flex space-x-4">
-			<h6 class="text-4xl font-display text-red-700">
+			<h6 class="text-4xl font-display font-bold text-red-700">
 				{video.title}
 			</h6>
 			<h6 class="text-4xl font-hindi text-yellow-500 opacity-75">
