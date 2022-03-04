@@ -7,7 +7,6 @@
 	const today = new Date();
 
 	const date = new Date(concert.date);
-	// const date = new Date("02/22/23")
 
 	const diff = Math.round((date - today) / (1000 * 60 * 60 * 24));
 
@@ -18,7 +17,7 @@
 <a
 	href={concert.buyTickets}
 	target="_blank"
-	class="flex flex-row group border rounded-md border-gray-500 border-opacity-0 hover:border-opacity-100 hover:shadow-lg hover:bg-opacity-40 hover:bg-black my-4"
+	class="flex flex-row group border rounded-md border-gray-500 border-opacity-0 hover:border-opacity-100 hover:shadow-lg hover:bg-opacity-40 hover:bg-black my-4 xl:mr-4"
 >
 	<div
 		class="w-24 ring-1 rounded-md ring-gray-500 group-hover:ring-opacity-0 py-4 px-3 text-center"

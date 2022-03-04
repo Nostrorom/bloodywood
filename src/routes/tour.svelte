@@ -18,7 +18,7 @@
 	<title>Tour - Bloodywood</title>
 </svelte:head>
 
-<div class="grid lg:grid-cols-2">
+<div class="grid xl:grid-cols-2">
 	{#each concerts as concert}
 		<Concert {concert} />
 	{/each}
