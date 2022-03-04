@@ -99,7 +99,7 @@
 			review={{
 				author: 'Kerrang!',
 				date: 'Feb. 2022',
-				href: 'https://www.kerrang.com/album-review-displaywood-rakshak-india-metal',
+				href: 'https://www.kerrang.com/album-review-bloodywood-rakshak-india-metal',
 				stars: 4,
 				of: 5,
 				excerpt:
@@ -110,7 +110,7 @@
 			review={{
 				author: 'Distorted Sound Magazine',
 				date: 'Feb. 2022',
-				href: 'https://distortedsoundmag.com/album-review-rakshak-displaywood/',
+				href: 'https://distortedsoundmag.com/album-review-rakshak-bloodywood/',
 				stars: 9,
 				of: 10,
 				excerpt:
