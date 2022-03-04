@@ -7,7 +7,7 @@
 	import Review from '$lib/Review.svelte';
 	import rakshak from '/static/rakshak_cover.jpg';
 	import { fade, slide } from 'svelte/transition';
-	import music from '$lib/music.json';
+	import music from '$lib/json/music.json';
 </script>
 
 <svelte:head>

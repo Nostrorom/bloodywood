@@ -1,6 +1,6 @@
 <script>
 	import Video from '$lib/Video.svelte';
-	import videos from '$lib/videos.json';
+	import videos from '$lib/json/videos.json';
 </script>
 
 <svelte:head>

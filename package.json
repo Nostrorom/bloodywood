@@ -36,6 +36,7 @@
 		"@fontsource/new-rocker": "^4.5.2",
 		"@fontsource/ranga": "^4.5.1",
 		"@fontsource/skranji": "^4.5.3",
-		"@fontsource/tillana": "^4.5.3"
+		"@fontsource/tillana": "^4.5.3",
+		"svelte-flagicon": "^0.2.0"
 	}
 }

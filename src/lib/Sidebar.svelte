@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import Icon from '$lib/Icon.svelte';
-	import sections from '$lib/sections.json';
+	import sections from '$lib/json/sections.json';
 	import logo from '/static/bloodywood_logo.png';
 </script>
 

@@ -1,5 +1,6 @@
 [
 	{ "title": "Home", "path": "/" },
+	{ "title": "Tour", "path": "/tour" },
 	{ "title": "Tracks", "path": "/tracks" },
 	{ "title": "Band", "path": "/band" },
 	{ "title": "Merch", "path": "/merch" }

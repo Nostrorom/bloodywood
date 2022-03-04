@@ -1,6 +1,6 @@
 <script>
 	import Merch from '$lib/Merch.svelte';
-	import merchs from '$lib/merchs.json';
+	import merchs from '$lib/json/merchs.json';
 </script>
 
 <svelte:head>

@@ -3,7 +3,7 @@
 	import Video from '$lib/Video.svelte';
 	import Member from '$lib/Member.svelte';
 
-	import members from '$lib/members.json';
+	import members from '$lib/json/members.json';
 	let video = {
 		id: 'HIvzfULOJ70',
 		title: 'Raj Against The Machine',
