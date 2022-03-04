@@ -2,8 +2,6 @@
 	import Concert from '$lib/Concert.svelte';
 	import concertsJSON from '$lib/json/concerts.json';
 
-	$: console.log(concertsJSON.length);
-
 	const concerts = [];
 
 	Object.values(concertsJSON).forEach((concert) => {
