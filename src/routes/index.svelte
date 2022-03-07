@@ -8,6 +8,7 @@
 	import rakshak from '/static/rakshak_cover.jpg';
 	import { fade, slide } from 'svelte/transition';
 	import music from '$lib/json/music.json';
+	import reviews from '$lib/json/reviews.json';
 </script>
 
 <svelte:head>
@@ -95,7 +96,8 @@
 		</div>
 	</div>
 	<div class="">
-		<Review
+		{#each reviews as review}
+			<!-- 		<Review
 			review={{
 				author: 'Kerrang!',
 				date: 'Feb. 2022',
@@ -116,6 +118,8 @@
 				excerpt:
 					'It’s a throwback to the “everything goes” approach of the mid-90s when metal merged with whatever musical genre happened to be wandering past at the time, but is also a well-written, convincing statement of intent.'
 			}}
-		/>
+		/> -->
+			<Review {review} />
+		{/each}
 	</div>
 </div>
