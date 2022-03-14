@@ -1,0 +1,54 @@
+[
+	{
+		"title": {
+			"eng": "Machi Bhasad",
+			"hindi": "माची भसाडी"
+		},
+		"lyrics": [
+			{
+				"singer": "Raoul",
+				"eng": [
+					"It's a fight that goes beyond bad and good",
+					"It's a fight between can and should",
+					"So bounce to the sound, make a revolution",
+					"This is an act of war, this is the evolution",
+					"Remember those who raged before",
+					"We're the last straw, hard to the core",
+					"And we're ready for more",
+					"Rise up, and get on the attack",
+					"Become the generation that breaks the camel's back",
+					"Said break the camel's back",
+					"Said break the camel's back",
+					"Rise up, and get on the attack",
+					"Become the generation that breaks the camel's back"
+				]
+			},
+			{
+				"singer": "Jayant",
+				"hindi": "तेरे भ्रष्ट बुद्धि के धोके",
+				"trans": "Tere bhrasht buddhi ke dhoke",
+				"trad": "Your lies and false promises"
+			},
+			{
+				"hindi": "कब तक सहे, चुप होके",
+				"trans": "Kab tak sahey, chup hoke",
+				"trad": "We've suffered enough in silence"
+			},
+			{
+				"hindi": "जब बेलगाम पे दे लगाम तू रोके ओये",
+				"trans": "Jab belagaam pe de lagaam tu roke oye",
+				"trad": "When you try to bind the free"
+			},
+			{
+				"hindi": "माची भसाडी, देख",
+				"trans": "Machi bhasad, dekh",
+				"trad": "Expect a riot"
+			},
+			{
+				"hindi": "माची भसाडी, देख",
+				"trans": "Machi bhasad, dekh",
+				"trad": "Expect a riot"
+			}
+		]
+	}
+]
